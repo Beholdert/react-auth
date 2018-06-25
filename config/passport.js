@@ -7,7 +7,7 @@ passport.use(
     {
       clientID: require("./keys").google.CLIENT_ID,
       clientSecret: require("./keys").google.CLIENT_SECRET,
-      callbackURL: "/api/auth/google/redirect"
+      callbackURL: "/api/auth/googleredirect"
     },
     async (accessToken, refreshToken, profile, next) => {}
   )
